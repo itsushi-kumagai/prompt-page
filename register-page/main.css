@@ -24,8 +24,8 @@
 
 .prompt-contents {
   position: absolute;
-  height: 90%;
-  width: 60%;
+  height: 80%;
+  width: 50%;
 }
 
 .prompt-inner {
@@ -42,13 +42,8 @@
 }
 
 .prompt-inner h2 {
-  margin: 2.5rem 0 1.8rem;
+  margin-bottom: 1.5rem;
   font-size: 1.6rem;
-}
-
-.prompt-inner h3 {
-  margin: 0 20px;
-  font-size: 1em;
 }
 
 .pass-link {
@@ -56,8 +51,8 @@
 }
 
 .pass-link a {
-  font-size: 0.7rem;
-  padding-bottom: 4px;
+  font-size: 1rem;
+  margin-bottom: 4px;
   text-decoration: none;
   color: #ffffff;
   border-bottom: solid 1px #ffffff;
@@ -67,22 +62,8 @@
   font-size: 0.9rem;
 }
 
-.btn1 {
-  color: #ffffff;
-  background: #0FCC41;
-  margin-top: 2rem;
-  height: 40px;
-  width: 150px;
-  border: none;
-  border-radius: 30px;
-  font-size: 1.5rem;
-  line-height: 1rem;
-  cursor: pointer;
-  outline: none;
-  letter-spacing: 1.5px;
-}
-
 .btn2 {
+  position: relative;
   margin: 0 auto;
   background: #F70661;
   margin-top: 2rem;
@@ -95,8 +76,15 @@
 }
 
 .btn2 a {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #ffffff;
 }
 
@@ -106,7 +94,7 @@
 
 .box input {
   color: #ffffff;
-  padding: 0 10px;
+  padding: 5px 10px;
   width: 60%;
   height: 25px;
   border-radius: 30px;
@@ -120,18 +108,33 @@
   margin: 1rem 0 0.5rem;
 }
 
-.sns-icon {
+.sns-icon-erea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 2rem 0 0.5rem;
+}
+
+.sns-icon {
+  position: relative;
+  height: 40px;
+  width: 20%;
+  border-radius: 30px;
+  margin: 0 5px;
+  cursor: pointer;
 }
 
 .sns-icon i {
-  margin: 1rem 1rem 0;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 @media screen and (max-width: 800px) {
@@ -139,28 +142,24 @@
     width: 80%;
   }
   .prompt-inner h2 {
-    margin: 1.5rem 0 1rem;
-    font-size: 1.6rem;
-  }
-  .prompt-inner h3 {
-    margin: 0 auto;
-    font-size: 0.8rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
   }
   .pass-link {
-    margin: 0.3rem 0;
+    margin: 1rem 0;
   }
   .pass-link a {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
   .box input {
     color: #ffffff;
     padding: 0 10px;
-    width: 85%;
+    width: 70%;
     height: 32px;
   }
   .text {
     margin: 0.5rem 0 0.2rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .btn1 {
     margin-top: 1.5rem;
@@ -173,9 +172,23 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
 }
 
 body {
   letter-spacing: 1.5px;
+}
+
+.face {
+  background: #305097;
+}
+
+.twi {
+  background: #00aced;
+}
+
+.goo {
+  background: #db4a39;
 }
 /*# sourceMappingURL=main.css.map */
