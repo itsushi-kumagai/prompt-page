@@ -35,7 +35,7 @@
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 100%;
@@ -44,6 +44,10 @@
 .prompt-inner h2 {
   margin-bottom: 1.5rem;
   font-size: 1.6rem;
+}
+
+.prompt-inner p {
+  margin-bottom: 1.5rem;
 }
 
 .pass-link {
@@ -64,7 +68,7 @@
 
 .btn1 {
   color: #ffffff;
-  background: #0FCC41;
+  background: #7206F7;
   margin-top: 2rem;
   height: 40px;
   width: 150px;
@@ -75,32 +79,6 @@
   cursor: pointer;
   outline: none;
   letter-spacing: 1.5px;
-}
-
-.btn2 {
-  position: relative;
-  margin: 0 auto;
-  background: #F70661;
-  margin-top: 2rem;
-  height: 40px;
-  width: 150px;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  outline: none;
-}
-
-.btn2 a {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  text-decoration: none;
-  font-size: 1.3rem;
-  color: #ffffff;
 }
 
 .text-box {
@@ -120,34 +98,7 @@
 }
 
 .text {
-  margin: 1rem 0 0.5rem;
-}
-
-.sns-icon-erea {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 2rem 0 0.5rem;
-}
-
-.sns-icon {
-  position: relative;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  margin: 0 10px;
-  cursor: pointer;
-}
-
-.sns-icon i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
+  margin: 1.5rem 0 1rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -158,17 +109,11 @@
     margin-bottom: 1rem;
     font-size: 1.8rem;
   }
-  .pass-link {
-    margin: 1rem 0;
-  }
-  .pass-link a {
-    font-size: 1rem;
-  }
   .box input {
     color: #ffffff;
     padding: 0 10px;
-    width: 70%;
-    height: 32px;
+    width: 80%;
+    height: 25px;
   }
   .text {
     margin: 0.5rem 0 0.2rem;
@@ -176,9 +121,6 @@
   }
   .btn1 {
     margin-top: 1.5rem;
-  }
-  .btn2 {
-    margin-top: 2.5rem;
   }
 }
 

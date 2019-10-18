@@ -1,0 +1,102 @@
+.prompt{
+    height: 100vh;
+    width: 0 auto;
+    background:url(./paul-fiedler-L-O36LuX9TY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+
+
+}
+
+.prompt-erea{
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.4);
+       display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.prompt-contents{
+    position: absolute;
+    height: 80%;
+    width: 50%;
+}
+.prompt-inner{
+    background: rgba(0,0,0, 0.8);   
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    h2{
+        margin-bottom: 1.5rem;
+        font-size: 1.6rem;
+    }
+    p{
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+
+    .pass-link{
+        margin: 1rem 0;
+        a{
+        font-size: 1rem; 
+        margin-bottom: 4px;
+        text-decoration: none;
+        color: #ffffff;
+        border-bottom: solid 1px #ffffff;
+        }
+    }
+    .send-icon{
+        width: 80px;
+        height: 80px;
+        background: #ffffff;
+        border-radius: 50%;
+        margin: 50px auto;           
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+@media screen and (max-width: 800px){
+    .prompt-contents{
+        width: 80%;
+    }
+
+    .prompt-inner{
+        h2{
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+
+        }
+    }
+
+    .pass-link{
+        margin: 1rem 0;
+        a{
+        font-size: 1rem; 
+        }
+    }
+    .box{
+  
+        input{  
+            color: #ffffff;
+            padding: 0 10px;
+            width: 70%;
+            height: 32px;
+        }
+    }
+    .text{
+        margin: 0.5rem 0 0.2rem;
+        font-size: 1rem;
+    }
+}

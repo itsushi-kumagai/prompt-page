@@ -46,6 +46,12 @@
   font-size: 1.6rem;
 }
 
+.prompt-inner p {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+
 .pass-link {
   margin: 1rem 0;
 }
@@ -58,96 +64,26 @@
   border-bottom: solid 1px #ffffff;
 }
 
-.form-erea dt {
-  font-size: 0.9rem;
-}
-
-.btn1 {
-  color: #ffffff;
-  background: #0FCC41;
-  margin-top: 2rem;
-  height: 40px;
-  width: 150px;
-  border: none;
-  border-radius: 30px;
-  font-size: 1.3rem;
-  line-height: 1rem;
-  cursor: pointer;
-  outline: none;
-  letter-spacing: 1.5px;
-}
-
-.btn2 {
-  position: relative;
-  margin: 0 auto;
-  background: #F70661;
-  margin-top: 2rem;
-  height: 40px;
-  width: 150px;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  outline: none;
-}
-
-.btn2 a {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  text-decoration: none;
-  font-size: 1.3rem;
-  color: #ffffff;
-}
-
-.text-box {
-  display: block;
-}
-
-.box input {
-  color: #ffffff;
-  padding: 5px 10px;
-  width: 60%;
-  height: 25px;
-  border-radius: 30px;
-  border: solid 3px #ffffff;
-  background: none;
-  outline: none;
-  font-size: 1rem;
-}
-
-.text {
-  margin: 1rem 0 0.5rem;
-}
-
-.sns-icon-erea {
+.send-icon {
+  width: 80px;
+  height: 80px;
+  background: #ffffff;
+  border-radius: 50%;
+  margin: 50px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 2rem 0 0.5rem;
 }
 
-.sns-icon {
-  position: relative;
-  height: 50px;
+.send-icon img {
   width: 50px;
-  border-radius: 50%;
-  margin: 0 10px;
-  cursor: pointer;
-}
-
-.sns-icon i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
+  height: 50px;
 }
 
 @media screen and (max-width: 800px) {
@@ -173,12 +109,6 @@
   .text {
     margin: 0.5rem 0 0.2rem;
     font-size: 1rem;
-  }
-  .btn1 {
-    margin-top: 1.5rem;
-  }
-  .btn2 {
-    margin-top: 2.5rem;
   }
 }
 

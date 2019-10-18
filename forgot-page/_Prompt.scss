@@ -28,14 +28,16 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    padding: 2rem 1rem;
+    padding: 2.5rem 1rem;
     box-sizing: border-box;
     width: 100%;
     h2{
         margin-bottom: 1.5rem;
         font-size: 1.6rem;
     }
-
+    p{
+        margin-bottom: 1.5rem;
+    }
 }
 
     .pass-link{
@@ -55,7 +57,7 @@
 }
 .btn1{
     color: #ffffff;
-    background: #0FCC41;
+    background: #7206F7;
     margin-top: 2rem;
     height: 40px;
     width: 150px;
@@ -69,29 +71,6 @@
 
 }
 
-
-.btn2{
-    position: relative;
-    margin: 0 auto;
-    background: #F70661;
-    margin-top: 2rem;
-    height: 40px;
-    width: 150px;
-    border :none;
-    border-radius: 30px;
-    cursor: pointer;
-    outline: none;
-    a{    
-        position: absolute;
-        top: 10%;
-        left: 50%;
-        transform: translateY(-50%);
-        transform: translateX(-50%);
-        text-decoration: none;
-        font-size: 1.3rem; 
-        color: #ffffff;
-    }
-}
 .text-box{
     display: block;
 
@@ -110,27 +89,9 @@
     }
 }
 .text{
-    margin: 1rem 0 0.5rem;
+    margin: 1.5rem 0 1rem;
 }
-.sns-icon-erea{
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0 0.5rem;
-}
-.sns-icon{
-    position: relative;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    margin: 0 10px;
-    cursor: pointer;
-    i{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-    }
-}
+
 
 
 
@@ -147,19 +108,13 @@
         }
     }
 
-    .pass-link{
-        margin: 1rem 0;
-        a{
-        font-size: 1rem; 
-        }
-    }
     .box{
   
         input{  
             color: #ffffff;
             padding: 0 10px;
-            width: 70%;
-            height: 32px;
+            width: 80%;
+            height: 25px;
         }
     }
     .text{
@@ -168,8 +123,5 @@
     }
     .btn1{
         margin-top:1.5rem;
-    }
-    .btn2{
-        margin-top:2.5rem;
     }
 }
